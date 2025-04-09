@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane style="-fx-padding: 10;" styleClass="login-background" stylesheets="@../style.css" xmlns="http://javafx.com/javafx/17.0.12" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.controllers.GameEngine">
+
+    <!-- Top: כותרת המשחק -->
+    <top>
+        <VBox alignment="center" spacing="5">
+            <Label fx:id="title" styleClass="title-label" text="Quarto client.game" />
+        </VBox>
+    </top>
+
+    <!-- Center: לוח המשחק + צ'אט בצד ימין -->
+    <center>
+        <HBox alignment="center" spacing="60">
+            <!-- לוח המשחק -->
+            <VBox alignment="CENTER" spacing="10">
+                <GridPane fx:id="gameBoard" alignment="CENTER" hgap="0" maxHeight="240" maxWidth="240" prefHeight="240" prefWidth="240" styleClass="board-background" vgap="0" />
+                <Label fx:id="turnLabel" styleClass="turn-label" text="Your turn..." />
+            </VBox>
+
+            <!-- צ'אט בצד ימין -->
+            <VBox fx:id="chatBox" prefWidth="350" spacing="10" style="-fx-padding: 50 20 60 40;">
+
+                <TextArea fx:id="chatArea" styleClass="chatArea" editable="false" prefHeight="250" prefWidth="330" wrapText="true" />
+
+                <HBox spacing="10">
+                    <TextField fx:id="chatInput" styleClass="chatInput" prefHeight="40" prefWidth="232.0"  />
+                    <Button onAction="#onSendChat" prefHeight="40" prefWidth="60" style="-fx-font-size: 14px;" text="Send" />
+                </HBox>
+            </VBox>
+
+
+        </HBox>
+    </center>
+
+    <!-- Bottom: חתיכות + תצוגה + כפתור יציאה -->
+    <bottom>
+        <HBox alignment="center" spacing="40" style="-fx-padding: 20;">
+            <!-- חתיכות -->
+            <GridPane fx:id="piecesBoard" hgap="10" vgap="10" />
+            <!-- חתיכה נבחרת -->
+            <VBox alignment="center" spacing="10">
+                <Label styleClass="selected-label" text="Selected Piece:" />
+                <GridPane fx:id="selectedPiecePane" />
+            </VBox>
+            <!-- כפתור יציאה -->
+            <Button onAction="#exitScreen" styleClass="exit-button" text="Exit" />
+        </HBox>
+    </bottom>
+</BorderPane>
