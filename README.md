@@ -11,8 +11,8 @@ The system supports:
 ## 🧩 System Requirements
 
 - Java JDK 17 or higher
-- JavaFX SDK (compatible with your JDK)
-- MySQL Server (running locally)
+- JavaFX SDK 
+- MySQL Server 
 - Any Java-supporting IDE or command-line environment
 
 ---
