@@ -9,10 +9,10 @@ The system supports:
 ## 🎮 Screenshots
 
 ### 🧩 Main Menu
-<img src="images/Main Menu.png" width="150"/>
+<img src="images/Main Menu.png" width="200"/>
 
 ### 🌐 Online Mode 
-<img src="images/Online Mode.png" width="350"/>
+<img src="images/Online Mode.png" width="500"/>
 
 ---
 
@@ -41,6 +41,7 @@ The system supports:
 4. To run:
     - First launch `TCPServer.java` (for online games)
     - Then launch `Main.java` to start the game (offline or online)
+
 
 
 
