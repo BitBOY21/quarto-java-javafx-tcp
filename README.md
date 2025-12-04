@@ -14,7 +14,6 @@ The system supports:
 ### 🌐 Online Mode 
 <img src="images/Online Mode.png" width="500"/>
 
----
 
 
 ## 🧩 System Requirements
@@ -24,7 +23,6 @@ The system supports:
 - MySQL Server 
 - Any Java-supporting IDE or command-line environment
 
----
 
 ## ⚙️ Setup Instructions
 
@@ -41,6 +39,7 @@ The system supports:
 4. To run:
     - First launch `TCPServer.java` (for online games)
     - Then launch `Main.java` to start the game (offline or online)
+
 
 
 
