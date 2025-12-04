@@ -12,7 +12,7 @@ The system supports:
 <img src="images/Main Menu.png" width="250"/>
 
 ### 🌐 Online Mode 
-<img src="images/image.png" width="500"/>
+<img src="images/Online Mode.png" width="500"/>
 
 ---
 
@@ -41,6 +41,7 @@ The system supports:
 4. To run:
     - First launch `TCPServer.java` (for online games)
     - Then launch `Main.java` to start the game (offline or online)
+
 
 
 
