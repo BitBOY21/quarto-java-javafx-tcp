@@ -8,6 +8,22 @@ The system supports:
 
 ---
 
+## 🎮 Screenshots
+
+### 🧩 Main Menu
+<img src="images/main-menu.png" width="450"/>
+
+---
+
+### 🌐 Online Mode – Two Players
+<img src="images/online-mode.png" width="800"/>
+
+---
+
+### 🪵 Gameplay
+<img src="images/gameplay.png" width="800"/>
+
+
 ## 🧩 System Requirements
 
 - Java JDK 17 or higher
@@ -32,3 +48,4 @@ The system supports:
 4. To run:
     - First launch `TCPServer.java` (for online games)
     - Then launch `Main.java` to start the game (offline or online)
+
