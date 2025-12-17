@@ -1,4 +1,4 @@
-# Quarto Multiplayer Game – Final Project
+# Quarto Multiplayer Game 
 
 This is an academic project implementing the **Quarto** board game in Java using **JavaFX** for the user interface, **TCP sockets** for multiplayer communication, and **MySQL** for player statistics.
 
@@ -39,6 +39,7 @@ The system supports:
 4. To run:
     - First launch `TCPServer.java` (for online games)
     - Then launch `Main.java` to start the game (offline or online)
+
 
 
 
